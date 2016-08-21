@@ -4,6 +4,7 @@ public class Domicilio {
 	
 	String calle;
 	Integer numero;
+	Integer cp;
 	
 	
 	public String getCalle() {
@@ -17,6 +18,12 @@ public class Domicilio {
 	}
 	public void setNumero(Integer numero) {
 		this.numero = numero;
+	}
+	public Integer getCp() {
+		return cp;
+	}
+	public void setCp(Integer cp) {
+		this.cp = cp;
 	}
 
 }
