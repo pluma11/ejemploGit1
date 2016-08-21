@@ -9,6 +9,10 @@ public class Persona {
 		super();
 	}
 
+	public Persona(String nombre) {
+		this.nombre=nombre;
+	}
+
 	public String getNombre() {
 		return nombre;
 	}
