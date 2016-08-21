@@ -7,6 +7,7 @@ public class Domicilio {
 	Integer cp;
 	String provincia;
 	String telefono;
+	String localidad;
 	
 	public String getCalle() {
 		return calle;
@@ -37,6 +38,12 @@ public class Domicilio {
 	}
 	public void setTelefono(String telefono) {
 		this.telefono = telefono;
+	}
+	public String getLocalidad() {
+		return localidad;
+	}
+	public void setLocalidad(String localidad) {
+		this.localidad = localidad;
 	}
 
 }
