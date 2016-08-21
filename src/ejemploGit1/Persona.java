@@ -4,6 +4,7 @@ public class Persona {
 
 	private String nombre;
 	private String apellido;
+	private Domicilio domicilio;
 
 	public Persona() {
 		super();
@@ -27,6 +28,14 @@ public class Persona {
 
 	public void setApellido(String apellido) {
 		this.apellido = apellido;
+	}
+
+	public Domicilio getDomicilio() {
+		return domicilio;
+	}
+
+	public void setDomicilio(Domicilio domicilio) {
+		this.domicilio = domicilio;
 	}
 
 }
