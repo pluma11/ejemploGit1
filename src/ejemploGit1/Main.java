@@ -3,7 +3,8 @@ package ejemploGit1;
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("hola mundo");
+		Integer i=new Integer(3);
+		System.out.println("hola mundo este es un cambio "+i);
 
 	}
 
