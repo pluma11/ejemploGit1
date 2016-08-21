@@ -9,6 +9,7 @@ public class Domicilio {
 	String telefono;
 	String localidad;
 	String wassapp;
+	String email;
 	
 	public String getCalle() {
 		return calle;
@@ -51,6 +52,12 @@ public class Domicilio {
 	}
 	public void setWassapp(String wassapp) {
 		this.wassapp = wassapp;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 }
